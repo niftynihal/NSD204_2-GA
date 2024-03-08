@@ -1,0 +1,41 @@
+CI/CD
+
+Continuos Integration/Continuos Deployment
+
+Continuos Integration - refers to the process of automatically building and testing code changes whenever they are made;
+
+
+Continuos Deployment - refers to the process of automatically deploying code changes to the production servers without we having to redeploy the entire applicaiton again
+
+
+CI/CD Pipeline - basically a list of processes/tools that are in place to ensure CI and CD;
+
+
+Github is the commonly used tool for storing and integrating code -->it provides -->  Github Actions 
+
+
+Github Actions -   it's a CI/CD tool that is present in the Github platform;
+                   It helps developers to automate their software development workflows by defining custom actions
+                These custom actions can be triggered by different events - commit, push, pull request etc;
+
+
+                For example : we can define a action like - when code is pushed, run this particular command "npm run eslint"
+
+1. Automating software development workflows;
+
+        dev --> pushes code 
+
+        action --> whenever code is pushed, run test cases;
+
+        test cases are run and if no error --> only then code gets deployed;
+
+2. build, test, deploy code or trigger notifications;
+
+3. Automating repetitive tasks;
+
+
+
+Let's start implementing
+
+
+1. Create an empty github repository
