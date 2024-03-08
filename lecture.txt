@@ -68,4 +68,7 @@ b. It has key value pairs separated by :
 c. we can have an array of items, in new lines, each starting with -
 
 
-1st workflow
+different workflows;
+
+
+If any of the job fails, the next jobs will not be executed

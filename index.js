@@ -1,5 +1,5 @@
-console.log("hello from index.js")
+console.log('hello from index.js');
 
 var isEven = require('is-even');
 
-console.log(isEven(5))
+console.log(isEven(5));
