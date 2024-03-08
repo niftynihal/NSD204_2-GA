@@ -39,3 +39,33 @@ Let's start implementing
 
 
 1. Create an empty github repository
+2. ^ Add, commit and push something to it
+
+
+**Github Actions Workflow**
+
+Workflow can have two things 
+
+1. Event -> basically when should a job run. Example,  on push, on PR etc
+2. job -> what task needs to be executed. Example - running test cases, deploying, printing node version
+
+
+YAML file 
+Yet Another Markup language/YAML ain't markup language
+
+.yml file;
+
+
+1. create a .github folder
+2. Inside this .github folder, create a workflows folder
+3. Inside this workflows folder is where we write our yml file;
+
+
+Things to know about yml files 
+
+a. It follows indentation(proper spacing needs to be followed)
+b. It has key value pairs separated by :
+c. we can have an array of items, in new lines, each starting with -
+
+
+1st workflow
